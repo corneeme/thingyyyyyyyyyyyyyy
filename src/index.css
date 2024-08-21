@@ -59,6 +59,7 @@ h2.title {
 
 .title {
   position: relative;
+  text-align: center;
 }
 
 .title::before,

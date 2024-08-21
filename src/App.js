@@ -6,6 +6,7 @@ import TrailerPreview from './components/TrailerPreview/TrailerPreview';
 import WhereToBuyButton from './components/WhereToBuyButton';
 import GameDescription from './components/GameDescription/GameDescription';
 import DeadCellsOnAndroid from './components/DeadCellsOnAndroid/DeadCellsOnAndroid';
+import BlogIntroduction from './components/BlogIntroduction/BlogIntroduction';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <WhereToBuyButton />
       <GameDescription />
       <DeadCellsOnAndroid />
+      <BlogIntroduction />
+      <Footer />
     </div>
   );
 }
