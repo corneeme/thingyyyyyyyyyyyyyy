@@ -2,10 +2,11 @@ import './App.css';
 
 import Header from './components/Header/Header';
 import HeaderTopFiller from './components/HeaderTopFiller';
-import Footer from './components/Footer/Footer';
 import TrailerPreview from './components/TrailerPreview/TrailerPreview';
 import WhereToBuyButton from './components/WhereToBuyButton';
 import GameDescription from './components/GameDescription/GameDescription';
+import DeadCellsOnAndroid from './components/DeadCellsOnAndroid/DeadCellsOnAndroid';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TrailerPreview />
       <WhereToBuyButton />
       <GameDescription />
+      <DeadCellsOnAndroid />
     </div>
   );
 }

@@ -13,6 +13,7 @@ section.game-description .content {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
+  margin-bottom: 2%;
 }
 
 section.game-description .summary {

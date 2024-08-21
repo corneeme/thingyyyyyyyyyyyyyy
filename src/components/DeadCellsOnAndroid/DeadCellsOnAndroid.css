@@ -1,0 +1,40 @@
+section.on-android h2 {
+  text-align: center;
+}
+
+section.on-android .content {
+  width: 540px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+section.on-android .get-alert-text {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+section.on-android form .email {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(249, 207, 135, 0.5);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 10px 0;
+}
+
+section.on-android form .be-notified {
+  text-align: center;
+  width: 350px;
+  max-width: 90%;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: #f9cf87;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.75);
+  background-color: rgba(164, 2, 57, 0.8);
+  border: none;
+  margin-top: 20px;
+  padding: 3px;
+}

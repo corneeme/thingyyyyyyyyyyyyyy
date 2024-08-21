@@ -53,6 +53,10 @@ h6 {
   color: #a40239;
 }
 
+h2.title {
+  font-size: 4em;
+}
+
 .title {
   position: relative;
 }
