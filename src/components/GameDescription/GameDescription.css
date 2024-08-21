@@ -51,6 +51,5 @@ section.game-description .videos li {
 section.game-description .videos .video {
   width: 100%;
   list-style-type: none;
-  cursor: zoom-in;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.75);
 }

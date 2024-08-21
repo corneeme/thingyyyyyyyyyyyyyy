@@ -2,6 +2,7 @@ import './BlogIntroduction.css';
 
 import React from 'react';
 import NewsBlock from '../NewsBlock';
+import { Link } from 'react-router-dom';
 
 const BlogIntroduction = () => {
   return (
@@ -10,9 +11,9 @@ const BlogIntroduction = () => {
       <div className='content'>
         <NewsBlock />
       </div>
-      <a href='#' className='read-blog-btn'>
+      <Link to={'/Blog'} className='read-blog-btn'>
         READ MORE POSTS
-      </a>
+      </Link>
     </section>
   );
 };

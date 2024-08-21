@@ -45,6 +45,9 @@
   cursor: pointer;
 }
 
+.main-footer .links li:hover {
+  color: white;
+}
 
 .main-footer .links li::after {
   content: ' >';

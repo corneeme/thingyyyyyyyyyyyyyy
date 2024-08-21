@@ -93,3 +93,8 @@ h2.title {
   left: 0.25em;
   margin-right: -50%;
 }
+
+.link {
+  text-decoration: none;
+  color: unset;
+}

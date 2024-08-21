@@ -21,6 +21,7 @@ section.on-android form .email {
   display: block;
   width: 100%;
   padding: 8px;
+  color: #f9cf87;
   border: 1px solid rgba(249, 207, 135, 0.5);
   background-color: rgba(255, 255, 255, 0.05);
   margin: 10px 0;

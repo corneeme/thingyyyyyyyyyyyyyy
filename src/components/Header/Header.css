@@ -41,8 +41,18 @@
   font-weight: bold;
 }
 
+.main-header nav li:hover {
+  color: white;
+}
+
 .main-header nav .social-media-icon {
   font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header nav .social-media-icon a {
   display: flex;
   justify-content: center;
   align-items: center;

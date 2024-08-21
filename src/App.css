@@ -5,6 +5,7 @@
 }
 
 .where-to-buy-btn {
+  cursor: pointer;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -22,6 +23,10 @@
   margin-right: 20px;
   margin: auto;
   margin-top: -15px;
+}
+
+.where-to-buy-btn:hover {
+  background: linear-gradient(to bottom, #d64d60 50%, #d24459 50%);
 }
 
 .news-block {

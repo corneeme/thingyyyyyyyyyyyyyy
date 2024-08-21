@@ -1,8 +1,15 @@
 import './DeadCellsOnAndroid.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 
 const DeadCellsOnAndroid = () => {
+  const [emailValue, setEmailValue] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('You will be notified');
+  };
+
   return (
     <section className='on-android'>
       <h2 className='title'>Dead Cells on Android</h2>
@@ -10,18 +17,18 @@ const DeadCellsOnAndroid = () => {
         <p className='get-alert-text'>
           Get an alert when Dead Cells is available on Android:
         </p>
-        <form action=''>
+        <form onSubmit={handleSubmit}>
           <input
             type='email'
             name='email'
             id='email'
             className='email'
             placeholder='Email address here'
+            onChange={(e) => setEmailValue(e.target.value)}
+            value={emailValue}
           />
           <input
-            type='sumbim'
-            name='submit'
-            id='submit'
+            type='submit'
             className='be-notified'
             value={'BE NOTIFIED !'}
           />
