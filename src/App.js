@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import FrontPage from './pages/FrontPage';
 import Leaderboard from './pages/Leaderboard';
-import PatchNotes from './pages/PathNotes';
+import PatchNotes from './pages/PatchNotes';
 import Blog from './pages/Blog';
 import Stores from './pages/Stores';
 

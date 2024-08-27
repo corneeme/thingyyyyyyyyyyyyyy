@@ -50,7 +50,6 @@ const GameDescription = () => {
               playing={true}
               width='100%'
               height='100%'
-              onEnded={false}
               className='video'
             />
           </li>

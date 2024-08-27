@@ -1,0 +1,97 @@
+section.leaderboard .leaderboard-content {
+  padding-top: 90px;
+}
+
+section.leaderboard .dates-bar {
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+section.leaderboard .dates-bar .previous:hover,
+section.leaderboard .dates-bar .next:hover {
+  color: #f9e6c6;
+}
+
+section.leaderboard .dates-bar .previous,
+section.leaderboard .dates-bar .next {
+  cursor: pointer;
+}
+
+section.leaderboard .dates-bar .previous {
+  position: absolute;
+  left: 0;
+}
+
+section.leaderboard .dates-bar .previous::before {
+  content: '< ';
+  color: #a40239;
+}
+
+section.leaderboard h3 {
+  color: #f9cf87;
+  font-size: 1.8em;
+}
+
+section.leaderboard h3::before {
+  background: linear-gradient(
+    to right,
+    rgba(249, 207, 135, 0),
+    rgba(249, 207, 135, 0.5)
+  );
+}
+
+section.leaderboard h3::after {
+  background: linear-gradient(
+    to left,
+    rgba(249, 207, 135, 0),
+    rgba(249, 207, 135, 0.5)
+  );
+}
+
+section.leaderboard .ranking-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 14pt;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+section.leaderboard .ranking-type span {
+  color: #a40239;
+}
+
+section.leaderboard .ranking-type .active {
+  color: white;
+}
+
+section.leaderboard .ranking-type .inactive {
+  opacity: 0.8;
+}
+
+section.leaderboard .results-table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+section.leaderboard .results-table tr th,
+section.leaderboard .results-table tr td {
+  padding: 5px;
+  font-weight: normal;
+  text-align: left;
+}
+
+section.leaderboard .results-table .right {
+  text-align: right;
+}
+
+section.leaderboard .results-table .place-number {
+  opacity: 0.5;
+}
+
+section.leaderboard .results-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.08);
+}

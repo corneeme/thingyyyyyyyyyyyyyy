@@ -1,0 +1,11 @@
+.posts-container {
+  padding-top: 100px;
+}
+
+.posts-container li {
+  padding-bottom: 50px;
+}
+
+.posts-container li:last-child {
+  padding-bottom: 0;
+}
