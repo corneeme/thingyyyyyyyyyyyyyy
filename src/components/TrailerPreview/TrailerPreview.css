@@ -1,13 +1,21 @@
 section.trailer {
-  height: 840px;
+  max-height: 840px;
   background-size: 1920px 840px;
   background: url('../../images/HeaderBanner.jpg') repeat-x 50% 0%;
   display: flex;
+  margin-bottom: 60px;
 }
 
 section.trailer .youtube-trailer {
   width: 1280px;
-  height: 720px;
+  aspect-ratio: 16 / 9;
   margin: auto;
+  margin-top: 60px;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1280px) {
+  section.trailer .youtube-trailer {
+    margin-top: 4vw;
+  }
 }

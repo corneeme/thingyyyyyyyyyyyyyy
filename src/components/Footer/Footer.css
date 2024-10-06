@@ -53,3 +53,9 @@
   content: ' >';
   color: #a40239;
 }
+
+@media (max-width: 767px) {
+  .main-footer .content {
+    flex-direction: column;
+  }  
+}

@@ -99,3 +99,15 @@ h2.title {
   text-decoration: none;
   color: unset;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body #root h2.title {
+    font-size: 4.5em;
+  }  
+}
+
+@media (max-width: 767px) {
+  body #root h2.title {
+    font-size: 2em;
+  }  
+}

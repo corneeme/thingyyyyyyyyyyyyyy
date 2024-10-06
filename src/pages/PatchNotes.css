@@ -1,14 +1,15 @@
 section .notes-content {
   padding-top: 90px;
+}
+
+section.patch-notes .patch-notes-container {
   width: 550px;
-  margin: auto;
   position: relative;
+  margin: auto;
 }
 
 section.patch-notes {
   position: relative;
-  max-width: 550px;
-  margin: auto;
 }
 
 section.patch-notes .category .title {
@@ -63,8 +64,8 @@ section.patch-notes .sub-patch {
 section.patch-notes .patch-list {
   position: absolute;
   top: 205px;
-  width: 200px;
   right: -235px;
+  width: 200px;
   padding: 10px;
   background-color: rgba(249, 230, 198, 0.1);
   border: 1px solid rgba(249, 207, 135, 0.2);
@@ -100,4 +101,18 @@ section.patch-notes .patch-list .alpha-branch {
 section.patch-notes .patch-list .update-line {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  section.patch-notes .patch-list {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  section.patch-notes .patch-notes-container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

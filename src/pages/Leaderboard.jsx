@@ -401,6 +401,7 @@ const Leaderboard = () => {
             {leaderboardData.map((item, index) => {
               return (
                 <LeaderboardTableRow
+                  key={index}
                   index={index}
                   name={item.name}
                   score={item.score}

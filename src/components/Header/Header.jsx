@@ -1,20 +1,27 @@
 import './Header.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { BiLogoFacebookSquare } from 'react-icons/bi';
 import { FaTwitter } from 'react-icons/fa';
 import GameLogo from '../../images/GameLogo.png';
 
+import { IoMenu } from 'react-icons/io5';
+
 const Header = () => {
+  const [showMenu, setshowMenu] = useState(false);
+
   return (
     <header className='main-header'>
       <nav>
+        <div className='menu-icon' onClick={() => setshowMenu(!showMenu)}>
+          <IoMenu size={48}/>
+        </div>
         <Link to={'/'} className='game-logo link'>
           <img src={GameLogo} alt='' />
         </Link>
-        <ul>
+        <ul className={`links-dashboard ${showMenu ? 'active' : 'inactive'}`}>
           <li>
             <Link to={'/'} className='link'>
               About

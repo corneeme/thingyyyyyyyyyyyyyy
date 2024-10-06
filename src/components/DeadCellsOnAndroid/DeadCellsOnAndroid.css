@@ -40,3 +40,10 @@ section.on-android form .be-notified {
   margin-top: 20px;
   padding: 3px;
 }
+
+
+@media (max-width: 540px) {
+  section.on-android .content {
+    width: 100%;
+  }
+}
